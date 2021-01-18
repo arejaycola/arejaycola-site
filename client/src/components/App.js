@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Login from './Login';
+import Main from './Main';
 import Navbar from './Navbar';
-import SecondPage from './SecondPage';
+import Natours from './pages/Natours';
 
 const App = () => {
 	return (
@@ -10,8 +10,8 @@ const App = () => {
 			<Navbar />
 			<BrowserRouter>
 				<Switch>
-					<Route path="/" exact component={Login}></Route>
-					<Route path="/second-page" component={SecondPage}></Route>
+					<Route path="/" exact component={Main}></Route>
+					<Route path="/natours" exact component={Natours}></Route>
 				</Switch>
 			</BrowserRouter>
 		</>
