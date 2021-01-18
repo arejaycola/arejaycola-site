@@ -1,14 +1,20 @@
-import React from 'react'
+import React from 'react';
 
-const Main = () =>{
-
-    return (
-        <div>
-            <p>
-                Tehe
-            </p>
-            <button>Argh...</button>
-        </div>
-    )
-}
+const Main = () => {
+	return (
+		<div>
+			<ul>
+				<li>
+					<a href="/natours">Natours</a>
+				</li>
+				<li>
+					<a href="/trillo">Trillo</a>
+				</li>
+				<li>
+					<a href="/nexter">Nexter</a>
+				</li>
+			</ul>
+		</div>
+	);
+};
 export default Main;
